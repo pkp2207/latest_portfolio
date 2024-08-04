@@ -25,6 +25,7 @@ import {
 } from "../assets";
 import androleda from "../assets/company/androleda.png";
 import koe from "../assets/company/koe.png";
+import paragon from "../assets/company/paragon.jpeg"
 import svnit from "../assets/company/svnit.png";
 import radiant from "../assets/company/radiant.jpeg";
 import reliance from "../assets/company/reliance.png";
@@ -122,6 +123,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer - Contract",
+    company_name: "Paragon Irrigations Inc.",
+    icon: paragon,
+    iconBg: "#383E56",
+    date: "August 2024 - Present",
+    points: [
+      "Built and deployed a full-stack web application serving over 5,000 users. I combined AWS Cloud, Amazon RDS— PostgreSQL, Next.js, and Tailwind CSS to deliver a high-performance experience and user-friendly interface.",
+      "Worked on the development of backend systems in TypeScript and Express.js, then containerized them using Docker, streamlined deployments with AWS Fargate and AWS Beanstalk",
+      "Ran efficient pipelines for CI/CD using AWS CodeBuild, CodeDeploy, and CodePipeline; integrated SonarQube to do strict checking on code quality.This increased the velocity of deployment by 25%.",
+    ],
+  },
   {
     title: "Developer",
     company_name: "Koe - The Kafe",
