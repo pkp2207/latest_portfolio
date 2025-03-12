@@ -33,6 +33,8 @@ import video from "../assets/tech/video.jpeg";
 import sas from "../assets/tech/sasfts.jpeg";
 import pkpcare from "../assets/tech/pkpcare.png";
 import nextjs from "../assets/tech/nextjs.png";
+import blogsgo from "../assets/tech/blogsgo2.png";
+import koe2 from "../assets/tech/koe2.png";
 export const navLinks = [
   {
     id: "about",
@@ -50,20 +52,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Engineer",
     icon: web,
   },
   {
-    title: "DevOps Engineer",
-    icon: backend,
+    title: "Next.js & TypeScript Developer",
+    icon: mobile,
   },
   {
-    title: "NextJs Developer",
-    icon: mobile,
-  }, 
-  {
-    title: "Algorithm Geek",
+    title: "Algorithm & DSA Enthusiast",
     icon: creator,
+  },
+  {
+    title: "Cloud & DevOps Learner",
+    icon: backend,
   },
 ];
 
@@ -128,7 +130,7 @@ const experiences = [
     company_name: "Paragon Irrigations Inc.",
     icon: paragon,
     iconBg: "#383E56",
-    date: "August 2024 - Present",
+    date: "August 2024 - Dec. 2024",
     points: [
       "Built and deployed a full-stack web application serving over 5,000 users. I combined AWS Cloud, Amazon RDS— PostgreSQL, Next.js, and Tailwind CSS to deliver a high-performance experience and user-friendly interface.",
       "Worked on the development of backend systems in TypeScript and Express.js, then containerized them using Docker, streamlined deployments with AWS Fargate and AWS Beanstalk",
@@ -160,31 +162,31 @@ const experiences = [
       "Contributed to a 30% increase in user engagement within the first month post-launch.",
     ],
   },
-{
-title: "Student",
-company_name: "S.V.N.I.T, Surat",
-icon: svnit,
-iconBg: "#383E56",
-date: "Nov 2022 - July 2026",
-points: [
-  "Bachelor of Technology in Computer Science & Engineering, 2026",
-  "CGPA:- 8.72",
-  "Data Structures & Algorithms, Database Management Systems, Microprocessors and Interfacing Techniques, Automata & Formal Languages, Computer Networks, Artificial Intelligence, Design & Analysis Of Algorithms, Computer Organization & Architecture, Discrete Mathematics",
+  {
+    title: "Student",
+    company_name: "S.V.N.I.T, Surat",
+    icon: svnit,
+    iconBg: "#383E56",
+    date: "Nov 2022 - July 2026",
+    points: [
+      "Bachelor of Technology in Computer Science & Engineering, 2026",
+      "CGPA:- 8.80",
+      "System Software, Operating Systems, Data Structures & Algorithms, Database Management Systems, Cloud Computing, Microprocessors and Interfacing Techniques, Automata & Formal Languages, Computer Networks, Artificial Intelligence, Design & Analysis Of Algorithms, Computer Organization & Architecture, Discrete Mathematics",
 
-],
-},
-{
-  title: "Student",
-  company_name: "Radiant English Academy, Surat",
-  icon: radiant,
-  iconBg: "#383E56",
-  date: "April 2020 - June 2022",
-  points: [
-    // "Higher Secondary Education",
-    "Class 12th Science CBSE:- 97.2%",
-    "Graduated as the highest ranked student in my class. (June 2022)",
-  ],
-},
+    ],
+  },
+  {
+    title: "Student",
+    company_name: "Radiant English Academy, Surat",
+    icon: radiant,
+    iconBg: "#383E56",
+    date: "April 2020 - June 2022",
+    points: [
+      // "Higher Secondary Education",
+      "Class 12th Science CBSE:- 97.2%",
+      "Graduated as the highest ranked student in my class. (June 2022)",
+    ],
+  },
   {
     title: "Student",
     company_name: "Reliance Foundation School, Surat",
@@ -197,7 +199,7 @@ points: [
       "Passed my 10th grade with a 98.2% aggregate, one of the toppers in the Ajmer region.(March 2020)",
     ],
   },
-  
+
 ];
 
 const testimonials = [
@@ -302,6 +304,54 @@ const projects = [
     ],
     image: video,
     source_code_link: "https://github.com/",
+  },
+  {
+    "name": "BlogsGo",
+    "description": "A full-stack blogging platform with a Go backend server for fetching data from MongoDB Atlas and a stylish Next.js frontend for a seamless user experience.",
+    "tags": [
+      {
+        "name": "go",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "mongodb",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "nextjs",
+        "color": "pink-text-gradient"
+      },
+      {
+        "name": "tailwind",
+        "color": "white-text-gradient"
+      }
+    ],
+    "image": blogsgo,
+    "source_code_link": "https://github.com/pkp2207/BlogsGo"
+  },
+  {
+    "name": "Koe the Cafe",
+    "description": "A full-stack café management system featuring table booking, workshop registration, and dynamic content management.",
+    "tags": [
+      {
+        "name": "express",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "mongodb",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "passport.js",
+        "color": "pink-text-gradient"
+      },
+      {
+        "name": "nodemailer",
+        "color": "white-text-gradient"
+      }
+    ],
+    "image": koe2,
+    "source_code_link": "https://github.com/pkp2207/Koe-The-Kafe-GWOC-24"
   },
 ];
 
