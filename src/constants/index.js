@@ -24,6 +24,7 @@ import {
   // threejs,
 } from "../assets";
 import androleda from "../assets/company/androleda.png";
+import visa from "../assets/company/visa.svg"
 import koe from "../assets/company/koe.png";
 import paragon from "../assets/company/paragon.jpeg"
 import svnit from "../assets/company/svnit.png";
@@ -126,7 +127,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer - Contract",
+    title: "Software Engineering Intern",
+    company_name: "Visa Inc.",
+    icon: visa,
+    iconBg: "white",
+    date: "May 2025 - July 2025",
+    points: [
+      "Engineered a distributed deployment automation platform reducing release time from 45+ to 15 minutes, scaling across multiple production environments.",
+      "Automated workflows by integrating ServiceNow with Jenkins pipelines, boosting continuous delivery reliability and eliminating manual errors.",
+      "Built a GenAI-powered log-analysis module with ML-based root-cause detection, improving system observability and reducing MTTR by 90%.",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
     company_name: "Paragon Irrigations Inc.",
     icon: paragon,
     iconBg: "#383E56",
